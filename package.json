@@ -1,0 +1,55 @@
+{
+  "name": "store",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@alan-ai/alan-sdk-web": "^1.8.19",
+    "@auth0/auth0-react": "^1.2.0",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.11.0",
+    "@tensorflow-models/coco-ssd": "^2.1.0",
+    "@tensorflow/tfjs": "^2.4.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.1.2",
+    "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.1",
+    "fingerpose": "0.0.2",
+    "firebase": "^8.2.3",
+    "netlify": "^6.0.12",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^3.11.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-webcam": "^5.2.0",
+    "stripe": "^8.130.0",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "CI= react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "netlify": "netlify dev"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "https://sachu-ecommerce-store-api.herokuapp.com/"
+}
